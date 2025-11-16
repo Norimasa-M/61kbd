@@ -14,9 +14,6 @@
 #define DEF 0
 #define FUN 1
 
-&lt { quick_tap_ms = <220>; };
-
-&mt { quick_tap_ms = <220>; };
 
 / {
     keymap {
