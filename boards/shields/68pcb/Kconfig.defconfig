@@ -1,6 +1,0 @@
-if SHIELD_68PCB
-
-config ZMK_KEYBOARD_NAME
-    default "68pcb"
-
-endif

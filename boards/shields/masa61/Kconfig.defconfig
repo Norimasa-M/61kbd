@@ -1,0 +1,14 @@
+if SHIELD_masa61
+
+config ZMK_KEYBOARD_NAME
+    default "masa61"
+
+endif
+
+
+# Force-enable Mouse Emulation and HID Mouse Reports
+CONFIG_ZMK_POINTING=y
+CONFIG_ZMK_HID_REPORT_MOUSE=y
+CONFIG_ZMK_MOUSE=y
+CONFIG_ZMK_HID_REPORT_KEYBOARD=y
+CONFIG_ZMK_HID_BOOT_PROTOCOL=y
