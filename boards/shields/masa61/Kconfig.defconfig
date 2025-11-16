@@ -1,0 +1,6 @@
+if SHIELD_MASA61
+
+config ZMK_KEYBOARD_NAME
+    default "masa61"
+
+endif
